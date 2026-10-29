@@ -7,7 +7,7 @@ import java.util.ArrayList;
 
 public class carteiraService {
 
-    ArrayList<carteira> carteiras;
+    public ArrayList<carteira> carteiras;
 
     public boolean addCarteira(int carteira, BigDecimal valor){
         for (carteira c : carteiras){
